@@ -1,0 +1,671 @@
+
+
+
+.advertise-analyze .container{
+    margin: 7% 10%;
+    text-align: center;
+    padding: 0 14%;
+}
+
+.advertise-analyze-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+}
+
+.advertise-analyze-body p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+
+/* ---------- eye-catching -------*/
+
+
+
+.amazon-advertising-right.eye-catching-h4 h4{
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.btn.eye-catching-btn{
+    margin-top: 40px;
+}
+
+
+/* -------------- experience ------------ */
+
+.experience .container{
+    margin: 7% 10%;
+    text-align: center;
+    padding: 0 14%;
+
+}
+
+.experience-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+}
+
+
+/* ----------- consumer-focused ------------ */
+
+.consumer-focused{
+    background-image: url("../images/Consumer-focused.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.consumer-focused .container{
+    margin: 0 10%;
+    padding: 6% 8% 7% 8%;
+    text-align: center;
+}
+
+.consumer-focused-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+}
+
+.consumer-focused-body p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+
+/* ------------ our-process --------------- */
+
+.our-process .container{
+    margin: 7% 10%;
+}
+
+.our-process-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.our-process-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+
+
+.our-process-row div h4{
+    font-size: 20px;
+    line-height: 27px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.our-process-row div p{
+    font-size: 20px;
+    line-height: 27px;
+    color: #4D4D4D;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+/* --------------- amazon-graphics ------------ */
+
+.amazon-graphics{
+    background: #F2F2F2;
+}
+
+.amazon-graphics .container{
+    margin: 7% 12%;
+    padding: 7% 0;
+}
+
+.amazon-graphics-row{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 150px; */
+}
+
+.amazon-graphics-left{
+    flex-basis: 45%;
+}
+
+.amazon-graphics-right{
+    flex-basis: 45%;
+}
+
+.graphics-left-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+    margin-bottom: 25px
+}
+
+.graphics-left-header span{
+    color: #FE9900;
+}
+
+.graphics-left-body .content{
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+
+.content div{
+    display: flex;
+    gap: 20px;
+}
+
+.content div img{
+    height: 16px;
+    width: 24px;
+    margin-top: 13px;
+}
+
+.btn.graphics-btn{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.amazon-graphics-right{
+    position: relative;
+}
+
+.graphics-right-tab{
+    height: 808px;
+    width: 583px;
+}
+
+.graphics-right-tab img{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.graphics-right-tab-display{
+    position: absolute;
+    top: 28px;
+    left: 29px;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 1350px){
+
+
+    .advertise-analyze .container{
+        margin: 80px 75px;
+        text-align: center;
+        padding: 0px 0px 60px 0px;
+    }
+    
+    .advertise-analyze-header h1{
+        font-size: 22px;
+        line-height: 27px;
+        color: #4D4D4D;
+        margin-bottom: 20px;
+    }
+    
+    .advertise-analyze-body p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #4D4D4D;
+        font-weight: 500;
+    }
+    
+    
+    
+    /* ---------- eye-catching -------*/
+    
+    
+    .eye-catching-btn{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    /* -------------- experience ------------ */
+    
+    .experience .container{
+        margin: 80px 75px;
+        text-align: center;
+        padding: 0px 20px;
+    
+    }
+    
+    .experience-header h1{
+        font-size: 22px;
+        line-height: 27px;
+        color: #4D4D4D;
+    }
+    
+    
+    /* ----------- consumer-focused ------------ */
+    
+    
+    .consumer-focused .container{
+        margin: 0px 0px;
+        padding: 60px 75px 60px 75px;
+        text-align: center;
+    }
+    
+    .consumer-focused-header h1{
+        font-size: 22px;
+        line-height: 27px;
+        color: #4D4D4D;
+        margin-bottom: 20px;
+    }
+    
+    .consumer-focused-body p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #4D4D4D;
+        margin-bottom: 15px;
+        font-weight: 500;
+    
+    }
+    
+    
+    /* ------------ our-process --------------- */
+    
+    .our-process .container{
+        margin: 80px 75px;
+    }
+    
+    .our-process-header h1{
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        color: #4D4D4D;
+    }
+    
+    .our-process-row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 40px;
+    }
+    
+    .our-process-row div img{
+        margin-left: 22px;
+    }
+    
+    .our-process-row div h4{
+        font-size: 16px;
+        line-height: 19px;
+        color: #4D4D4D;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    
+    .our-process-row div p{
+        font-size: 16px;
+        line-height: 19px;
+        color: #4D4D4D;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    
+    /* --------------- amazon-graphics ------------ */
+    
+    .amazon-graphics{
+        background: white;
+    }
+    
+    .amazon-graphics .container{
+        margin: 250px 0px 60px 0px;
+        padding: 0px 0px 40px 0px;
+    }
+    
+    .amazon-graphics-row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        background: #F2F2F2;
+        padding: 20px 20px 41px 20px;
+    }
+    
+    .amazon-graphics-left{
+        flex-basis: 45%;
+        padding: 0px 55px;
+    }
+    
+    .amazon-graphics-right{
+        flex-basis: 0%;
+        flex: 0px;
+    }
+    
+    .graphics-left-header {
+        margin-top: 221px;
+        text-align: center;
+    }
+    
+    .graphics-left-header h1{
+        font-size: 22px;
+        line-height: 27px;
+        color: #4D4D4D;
+        margin-bottom: 25px
+    }
+    
+    .graphics-left-header span{
+        color: #FE9900;
+    }
+    
+    .graphics-left-body .content{
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+        color: #4D4D4D;
+    }
+    
+    .graphics-left-body p{
+        margin-bottom: 20px;
+    }
+    
+    .content div{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .content div img{
+        height: 12px;
+        width: 17px;
+        margin-top: 4px;
+    }
+    
+    .btn.graphics-btn{
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    
+    .amazon-graphics-right{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 0px;
+    }
+    
+    .sales-tab-mobile-graphics {
+        position: relative;
+        top: -13px;
+    }
+    
+    .graphics-right-tab{
+        height: 388px;
+        width: 280px;
+        position: absolute;
+        top: -190px;
+        left: 32px;
+    }
+    
+    .graphics-right-tab img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .graphics-right-tab-display img{
+        height: 362px;
+        width: 255px;
+    }
+    
+    .graphics-right-tab-display{
+        position: absolute;
+        top: -177px;
+        left: 45px;
+    }
+    
+
+}
+
+
+
+/* ----------------- mobile responsive----------------------- */
+
+@media (max-width: 480px){
+
+
+.advertise-analyze .container{
+    margin: 80px 20px;
+    text-align: center;
+    padding: 0px 0px 60px 0px;
+}
+
+.advertise-analyze-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+}
+
+.advertise-analyze-body p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+
+
+/* ---------- eye-catching -------*/
+
+
+.eye-catching-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------------- experience ------------ */
+
+.experience .container{
+    margin: 80px 20px;
+    text-align: center;
+    padding: 0px 20px;
+
+}
+
+.experience-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+}
+
+
+/* ----------- consumer-focused ------------ */
+
+
+.consumer-focused .container{
+    margin: 0px 0px;
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+}
+
+.consumer-focused-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+}
+
+.consumer-focused-body p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+
+
+/* ------------ our-process --------------- */
+
+.our-process .container{
+    margin: 80px 20px;
+}
+
+.our-process-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.our-process-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.our-process-row div img{
+    margin-left: 22px;
+}
+
+.our-process-row div h4{
+    font-size: 16px;
+    line-height: 19px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.our-process-row div p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #4D4D4D;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* --------------- amazon-graphics ------------ */
+
+.amazon-graphics{
+    background: white;
+}
+
+.amazon-graphics .container{
+    margin: 250px 0px 60px 0px;
+    padding: 0px 0px 40px 0px;
+}
+
+.amazon-graphics-row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    background: #F2F2F2;
+    padding: 20px 20px 41px 20px;
+}
+
+.amazon-graphics-left{
+    flex-basis: 45%;
+}
+
+.amazon-graphics-right{
+    flex-basis: 0%;
+    flex: 0px;
+}
+
+.graphics-left-header {
+    margin-top: 221px;
+    text-align: center;
+}
+
+.graphics-left-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin-bottom: 25px
+}
+
+.graphics-left-header span{
+    color: #FE9900;
+}
+
+.graphics-left-body .content{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.graphics-left-body p{
+    margin-bottom: 20px;
+}
+
+.content div{
+    display: flex;
+    gap: 20px;
+}
+
+.content div img{
+    height: 12px;
+    width: 17px;
+    margin-top: 4px;
+}
+
+.btn.graphics-btn{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.amazon-graphics-right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+}
+
+.sales-tab-mobile-graphics {
+    position: relative;
+    top: -13px;
+}
+
+.graphics-right-tab{
+    height: 388px;
+    width: 280px;
+    position: absolute;
+    top: -190px;
+    left: 32px;
+}
+
+.graphics-right-tab img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.graphics-right-tab-display img{
+    height: 362px;
+    width: 255px;
+}
+
+.graphics-right-tab-display{
+    position: absolute;
+    top: -177px;
+    left: 45px;
+}
+
+
+
+
+}

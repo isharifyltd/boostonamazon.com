@@ -1,0 +1,225 @@
+
+
+
+
+.product-listing .container{
+    margin: 7% 10%;
+}
+
+.product-listing-row{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-listing-left{
+    flex-basis: 42%;
+}
+
+
+.product-listing-right{
+    flex-basis: 42%;
+}
+
+.product-listing-left h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.product-listing-left p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+.desktop-image{
+    position: relative;
+}
+
+.product-btn-center{
+    position: absolute;
+    top: 153px;
+    left: 120px;
+}
+
+
+.listing-btn{
+    display: block;
+    width: fit-content;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 15px 35px;
+    background: #222E3C;
+    border-radius: 6px;
+    transition: 0.5s;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.listing-btn div{
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.blue-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.listing-btn:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.listing-btn:hover div{
+    transform: scale(1.2);
+}
+
+
+/* ------- fba-management ------- */
+
+.fba-management-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.fba-btn-center{
+    position: absolute;
+    top: 192px;
+    left: 210px;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 1350px){
+
+
+    .product-listing {
+        display: none;
+    }
+
+    .owl-image-caseStudy{
+        margin: 0px 0px 0px 0px;
+        text-align: -webkit-center;
+    }
+
+    .caseStudy_item h1{
+        font-size: 22px;
+        line-height: 27px;
+        color: #4D4D4D;
+        margin-top: 40px;
+    }
+
+    .caseStudy_item p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #4D4D4D;
+        margin-top: 20px;
+    }
+   
+    .owl-carousel .owl-item .caseStudy_item{
+        width: 310px;
+        position: relative;
+    }
+
+    .owl-carousel .owl-item .caseStudy_item img{
+        width: 100%;
+    }
+
+
+    .listing-btn {
+        display: block;
+        width: fit-content;
+        font-size: 12px;
+        line-height: 23px;
+        padding: 7px 15px;
+        background: #222E3C;
+        border-radius: 6px;
+        transition: 0.5s;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    
+    .product-btn-center {
+        position: absolute;
+        top: 90px;
+        left: 55px;
+    }
+
+    .fba-btn-center {
+        position: absolute;
+        top: 105px;
+        left: 110px;
+    }
+
+
+}
+
+
+@media (max-width: 480px){
+    
+    .product-listing {
+        display: none;
+    }
+
+    .owl-image-caseStudy{
+        margin: 0px 0px 0px 0px;
+        text-align: -webkit-center;
+    }
+
+    .caseStudy_item h1{
+        font-size: 22px;
+        line-height: 27px;
+        color: #4D4D4D;
+        margin-top: 40px;
+    }
+
+    .caseStudy_item p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #4D4D4D;
+        margin-top: 20px;
+    }
+   
+    .owl-carousel .owl-item .caseStudy_item{
+        width: 310px;
+    }
+
+    .owl-carousel .owl-item .caseStudy_item img{
+        width: 100%;
+    }
+
+
+    .listing-btn {
+        display: block;
+        width: fit-content;
+        font-size: 12px;
+        line-height: 23px;
+        padding: 7px 15px;
+        background: #222E3C;
+        border-radius: 6px;
+        transition: 0.5s;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    
+    .product-btn-center {
+        position: absolute;
+        top: 90px;
+        left: 75px;
+    }
+
+    .fba-btn-center {
+        position: absolute;
+        top: 105px;
+        left: 130px;
+    }
+
+}

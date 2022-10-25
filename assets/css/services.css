@@ -1,0 +1,717 @@
+
+
+
+.services-hero-section{
+    height: 500px;
+    position: relative;
+}
+
+
+.services-hero-section .services-bg-image{
+    width: 100%;
+    height: 613px;
+    position: absolute;
+    background-image: url("../images/services.png");
+    top: -115px;
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services-bg-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.services-hero-section .services-layer{
+    padding: 60px 18% 70px 20%;
+    position: absolute;
+    background: #222E3C;
+    opacity: 0.95;
+    width: 100%;
+    height: 500px;
+}
+
+.services-hero-section .services-layer h1{
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 15px;
+    color: white;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
+
+.services-hero-section .services-layer h1 span{
+    color: #FE9900;
+}
+
+.services-hero-section .services-layer p{
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+
+
+
+/* ------------ e-commerce --------------- */
+
+.other-services-margin{
+    margin-top: 360px;
+}
+
+.other-services-bg{
+    background: white;
+}
+
+
+
+.e-commerce .container{
+    margin: 7% 18% 7% 18%;
+}
+
+.e-commerce-head{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.e-commerce-head h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+    margin: 20px;
+}
+
+.e-commerce-head h4{
+    font-size: 20px;
+    line-height: 24px;
+    color: #4D4D4D;
+    margin: 20px;
+    font-weight: 600;
+}
+
+
+.e-commerce-col-2-sub-2 div .layer h1{
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+.e-commerce-body-col-1 h3, .e-commerce-body-col-2 h3, .e-commerce-body-col-3 h3{
+    margin-top: 15px;
+}
+
+
+.service-col-btn.services-btn-hide-desktop{
+    display: none;
+}
+
+
+/* ---------------------other services ----------------- */
+
+
+.other-services-desktop-hide-section{
+    display: none;
+}
+
+
+/* -------------- optimize-listing ------------- */
+
+.optimize-listing{
+    background: #F2F2F2;
+}
+
+.optimize-listing .container{
+    margin: 7% 10%;
+    
+}
+
+.optimize-listing-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.optimize-listing-left{
+    flex-basis: 40%;
+}
+
+.optimize-listing-left img {
+    width: 100%;
+}
+
+
+.optimize-listing-right{
+    flex-basis: 50%;
+}
+
+
+
+.listing-right-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    color: #4D4D4D;
+    margin-bottom: 25px;
+}
+
+.listing-right-header span{
+    color: #FE9900;
+}
+
+.listing-right-header p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #4D4D4D;
+    font-weight: 600px;
+    margin-bottom: 50px;
+}
+
+
+.listing-right-body .content{
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+
+.content div{
+    display: flex;
+    gap: 20px;
+}
+
+.content div img{
+    height: 16px;
+    width: 24px;
+    margin-top: 13px;
+}
+
+
+
+
+/* ------------ years-of-experience --------------- */
+
+.years-of-experience .container{
+    margin: 7% 10%;
+}
+
+.years-of-experience-header h1{
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.years-of-experience-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+    margin-top: 100px;
+}
+
+.years-of-experience-row div{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.years-of-experience-row div h4{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700px;
+    color: #4D4D4D;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.years-of-experience-row div p{
+    font-size: 20px;
+    line-height: 27px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+
+@media (min-width: 481px) and (max-width: 1350px){
+
+
+
+    .services-hero-section{
+        height: 770px;
+        position: relative;
+    }
+    
+    
+    .services-hero-section .services-bg-image{
+        width: 100%;
+        height: 878px;
+        position: absolute;
+        background-image: url("../images/services.png");
+        top: -115px;
+        background-size: cover;
+        background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .services-bg-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .services-hero-section .services-layer{
+        padding: 190px 75px 70px 75px;
+        position: absolute;
+        background: #222E3C;
+        opacity: 0.95;
+        width: 100%;
+        height: 763px;
+    }
+    
+    .services-hero-section .services-layer h1{
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 35px;
+        line-height: 39px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .services-hero-section .services-layer h1 span{
+        color: #FE9900;
+    }
+    
+    .services-hero-section .services-layer p{
+        margin-bottom: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: white;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    
+
+    
+
+/* ------------ e-commerce --------------- */
+
+.other-services-margin{
+    margin-top: 360px;
+}
+
+
+
+.e-commerce .container{
+    margin: 80px 75px -300px 75px;
+}
+
+.e-commerce-head{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.e-commerce-head h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin: 20px;
+}
+
+.e-commerce-head h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+    margin: 20px;
+    font-weight: 500;
+}
+
+
+.service-col-btn.services-btn-hide-desktop{
+    display: flex;
+}
+
+/* ----------------- other services ----------- */
+
+.other-services-desktop-hide-section{
+    display: block;
+}
+
+
+/* -------------- optimize-listing ------------- */
+
+.optimize-listing{
+    background: #F2F2F2;
+}
+
+.optimize-listing .container{
+    margin: 60px 75px;
+    
+}
+
+.optimize-listing-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.optimize-listing-left{
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.optimize-listing-left img{
+    height: 100%;
+    width: 85%;
+}
+
+
+.optimize-listing-right{
+    flex-basis: 50%;
+
+}
+
+
+
+.listing-right-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.listing-right-header span{
+    color: #FE9900;
+}
+
+.listing-right-header p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D4D4D;
+    font-weight: 500px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+
+.listing-right-body .content{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.listing-right-body .content p{
+    margin-bottom: 20px;
+}
+
+.content div{
+    display: flex;
+    gap: 20px;
+}
+
+.content div img{
+    height: 12px;
+    width: 17px;
+    margin-top: 2px;
+}
+
+
+
+/* ------------ years-of-experience --------------- */
+
+.years-of-experience .container{
+    margin: 80px 80px;
+}
+
+.years-of-experience-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.years-of-experience-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.years-of-experience-row div{
+    text-align: center;
+    padding: 0px;
+}
+
+
+.years-of-experience-row div h4{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600px;
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.years-of-experience-row div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+
+}
+
+
+@media (max-width: 480px){
+
+
+    .services-hero-section{
+        height: 770px;
+        position: relative;
+    }
+    
+    
+    .services-hero-section .services-bg-image{
+        width: 100%;
+        height: 878px;
+        position: absolute;
+        background-image: url("../images/services.png");
+        top: -115px;
+        background-size: cover;
+        background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .services-bg-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .services-hero-section .services-layer{
+        padding: 135px 20px 70px 20px;
+        position: absolute;
+        background: #222E3C;
+        opacity: 0.95;
+        width: 100%;
+        height: 763px;
+    }
+    
+    .services-hero-section .services-layer h1{
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 35px;
+        line-height: 39px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .services-hero-section .services-layer h1 span{
+        color: #FE9900;
+    }
+    
+    .services-hero-section .services-layer p{
+        margin-bottom: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: white;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    
+
+    
+
+/* ------------ e-commerce --------------- */
+
+.other-services-margin{
+    margin-top: 360px;
+}
+
+
+
+.e-commerce .container{
+    margin: 80px 20px -300px 20px;
+}
+
+.e-commerce-head{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.e-commerce-head h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin: 20px;
+}
+
+.e-commerce-head h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+    margin: 20px;
+    font-weight: 500;
+}
+
+
+.service-col-btn.services-btn-hide-desktop{
+    display: flex;
+}
+
+/* ----------------- other services ----------- */
+
+.other-services-desktop-hide-section{
+    display: block;
+}
+
+
+/* -------------- optimize-listing ------------- */
+
+.optimize-listing{
+    background: #F2F2F2;
+}
+
+.optimize-listing .container{
+    margin: 60px 20px;
+    
+}
+
+.optimize-listing-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.optimize-listing-left{
+    flex-basis: 40%;
+}
+
+.optimize-listing-left img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.optimize-listing-right{
+    flex-basis: 50%;
+
+}
+
+
+
+.listing-right-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.listing-right-header span{
+    color: #FE9900;
+}
+
+.listing-right-header p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D4D4D;
+    font-weight: 500px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+
+.listing-right-body .content{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.listing-right-body .content p{
+    margin-bottom: 20px;
+}
+
+.content div{
+    display: flex;
+    gap: 20px;
+}
+
+.content div img{
+    height: 12px;
+    width: 17px;
+    margin-top: 2px;
+}
+
+
+
+/* ------------ years-of-experience --------------- */
+
+.years-of-experience .container{
+    margin: 80px 20px;
+}
+
+.years-of-experience-header h1{
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.years-of-experience-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.years-of-experience-row div{
+    text-align: center;
+    padding: 0px;
+}
+
+
+.years-of-experience-row div h4{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600px;
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.years-of-experience-row div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+
+
+}
+
